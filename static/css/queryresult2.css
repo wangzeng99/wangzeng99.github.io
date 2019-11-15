@@ -1,0 +1,121 @@
+body {
+    background: #EEEEEE;
+}
+.bg {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/bg_result.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 bottom;
+}
+.home-title {
+    width: 100%;
+    text-align: center;
+    font-size: .35rem;
+    font-weight: bold;
+    padding-top: .6rem;
+    margin-bottom: .3rem;
+    color: rgb(39,70,108);
+}
+.home-middle {
+    width: 81%;
+    background: url(../images/home_middle.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    margin: 0.8rem auto 0;
+}
+.result {
+    margin-top: .4rem
+}
+
+/* 查询结果页 */
+.company-name {
+    font-size: .3rem;
+    color: #fff;
+    text-align: center;
+    padding: .6rem 0 0.5rem;
+}
+.imgs-wrap {
+    text-align: center;
+    /*min-height: 3rem;*/
+    /* margin-top: 1rem; */
+}
+.imgs-wrap p img.logom {
+    width: 3.8rem;
+        width: 50%;
+    margin-top: 0.1rem;
+}
+.imgs-wrap p img.good-img {
+    width: 2.5rem;
+    margin-bottom: .1rem;
+    margin-top: .5rem;
+}
+.query-result {
+    font-size: .28rem;
+    text-align: center;
+    margin-top: .2rem;
+}
+.query-result p span.fraze-text {
+    color: rgb(15,115,243);
+    font-size: .35rem;
+}
+.query-result p:nth-child(2) {
+    margin: .15rem 0 .1rem;
+}
+.right-result {
+    color: rgb(214,24,27);
+    font-size: .3rem;
+}
+.lv-xin {
+    font-size: .25rem;
+}
+.right-result span {
+    font-size: .33rem;
+    color: rgb(214,24,27);
+    margin: 0 .1rem;
+}
+.question {
+    margin: .3rem 0;
+    font-size: .25rem;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+.colour-qrcode {
+    width: 2.2rem;
+    margin: 0 auto;
+    background: #fff;
+}
+.colour-qrcode img {
+    width: 100%;
+}
+.query-answer {
+    font-weight: 700;
+}
+
+.apply-card {
+    width: 49%;
+    /* margin: 0 auto; */
+    color: #fff;
+    background: rgb(123, 187, 254);
+    box-shadow: inset 0 -0.2rem 0.5rem rgb(61,128,214);
+    height: .85rem;
+    border-radius: .85rem;
+    text-align: center;
+    line-height: .85rem;
+    font-size: .35rem;
+    letter-spacing: .05rem;
+    /* margin-top: 2.8rem; */
+}
+
+/* 中商查询结果 */
+/* .zhongshang .home-middle {
+    background-size: 100% 175%;
+} */
+.zhongshang .company-name{
+    padding-top: .6rem;
+}
+.zhongshang .imgs-wrap p img.logom{
+    width: 3rem;
+    margin-top: 1rem;
+}
